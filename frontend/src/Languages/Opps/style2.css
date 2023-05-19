@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+.sec{
+    background-color: rgb(1, 0, 0);
+}
+
+.titles{
+    font-size: 55px;
+    text-align: center;
+    padding: 9px;
+    font-style: normal;
+    font-family: cursive, 'Times New Roman', Times, serif;
+    color: rgb(242, 242, 242);
+    padding-top: 29px;
+    padding-bottom: 20px;
+}
+
+.containers{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 80%;
+    margin-left: 10%;
+    border: 2px solid white;
+    border-radius: 2.5px;
+    word-wrap: break-word;
+    overflow: auto;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: rgb(253, 171, 183);
+    color: bisque;
+    box-shadow: white;
+}
+
+.language-cpp{
+    margin-left: 8px;
+    word-wrap: break-word;
+    overflow: hidden;
+    
+}
+
+
+#ans{
+    background-color: rgb(249, 209, 240);
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-all;
+    color: rgb(0, 0, 0);
+    padding-left: 14px;
+    padding-right: 13px;
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 3px;
+    padding-bottom: 12px;
+}
+
+#ques{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-all;
+    font-size: 31px;
+    font-weight: 800;
+    text-shadow: 1px white;
+    padding-bottom:10px;
+    padding-left: 10px;
+}
+
+#code{
+    background-color: rgb(41, 40, 40);
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    padding-left: 14px;
+}
+
+.questions-container .question{
+    text-align: left;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .page-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border-radius: 50%;
+    font-size: 21px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .page-button:hover {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+  }
+  
+  .active {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+  }

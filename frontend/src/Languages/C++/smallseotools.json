@@ -1,0 +1,283 @@
+[
+  {
+    "Ques": "What is C++?",
+    "Ans": "C++ is a high-level, object-oriented programming language that was developed by Bjarne Stroustrup. It is an extension of the C programming language and supports features such as classes, objects, inheritance, polymorphism, and templates.",
+    "title1": "C++ Code",
+    "Code1": "#include <iostream>\nusing namespace std;\n\n// Main() function: where the execution of program begins\nint main()\n{\n    cout << \"Welcome to DSA360\";\n    \n    return 0;\n}"
+  },
+  {
+    "Ques": "What are the differences between C and C++?",
+    "Ans": "Here are some differences between C and C++ ⎆\n   1. C++ supports object-oriented programming (OOP) concepts, while C does not.\n   2. C++ has a richer set of built-in data types and operators than C.\n   3. C++ supports function and operator overloading, which allows multiple functions or operators with the same name to exist in the same scope, while C does not.\n   4. C++ supports namespaces, which allow you to group related code together and avoid naming conflicts, while C does not.\n   5. C++ supports exception handling for runtime errors, while C does not.\n   6. C++ has a stronger type checking system than C, which helps catch errors at compile time rather than runtime.\n    7. C++ has a standard template library (STL) that provides a set of container classes, algorithms, and iterators for working with collections of data, while C does not.\n   8. C++ supports function templates and class templates, which allow generic programming, while C does not.\n   9. C++ supports reference variables, which are aliases for other variables, while C does not.\n   10. C++ has a more powerful set of features for working with objects, including constructors, destructors, and virtual functions, while C does not.\n   11. C++ has a more flexible and powerful set of control structures, including switch statements with string cases, and the ability to define custom operators.\n    12. C++ has a more powerful set of input/output (I/O) facilities, including the iostream library, while C relies on the standard I/O library.\n   13. C++ has a more complex syntax than C, due to its support for OOP concepts.\n  14. C++ is generally considered to be a more complex language than C, due to its support for a wider range of programming paradigms.\n    15. C++ is often used for large-scale software development projects, while C is more commonly used for system-level programming and embedded systems.\n\nLet's now see the difference with the help of code to check whether a number (say x) is Even or Odd",
+    "title1": "By C++",
+    "Code1": "#include <iostream>\nusing namespace std;\n\nint main() {\n  int n;\n\n  cout << \"Enter a number which you want to check: \";\n  cin >> n;\n\n  if ( n % 2 == 0)\n    cout << n << \" is even.\";\n  else\n    cout << n << \" is odd.\";\n\n  return 0;\n}",
+    "title2": "By C",
+    "Code2": "#include <stdio.h>\n\nint main() {\n    int n;\n    printf(\"Enter a number which you want to check: \");\n    scanf(\"%d\", &n);\n\n    // true if num is perfectly divisible by 2\n    if(n % 2 == 0)\n        printf(\"%d is even.\", n);\n    else\n        printf(\"%d is odd.\", n);\n    \n    return 0;\n}"
+  },
+  {
+    "Ques": "What is the difference between pass by reference and pass by value in C++?",
+    "Ans": "Pass by reference means that a function receives a reference to the original variable, so any changes made to the parameter inside the function also affect the original variable. \nPass by value means that the function receives a copy of the original variable, so any changes made to the parameter inside the function do not affect the original variable.",
+    "title1": "Example of Pass By Refernce",
+    "Code1": "",
+    "title2": "Example of Pass By Refernce",
+    "Code2": ""
+  },
+  {
+    "Ques": "What is an object in C++?",
+    "Ans": "An object is an instance of a class. It is a data structure that encapsulates data and methods that operate on that data.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a class in C++?",
+    "Ans": "A class is a user-defined data type that contains data members (variables) and member functions (methods) that operate on those data members.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is inheritance in C++?",
+    "Ans": "Inheritance is a mechanism in C++ where a class can derive properties and behavior from another class. The derived class inherits all the data members and member functions of the base class and can also add its own data members and member functions.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is polymorphism in C++?",
+    "Ans": "Polymorphism is a feature in C++ where a single interface can be used to represent multiple types. This can be achieved through function overloading or virtual functions.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is an Array in C++?",
+    "Ans": "An array is a collection of elements of the same data type, stored in contiguous memory locations. The elements can be accessed by their index or position in the array. In C++, arrays are declared using square brackets [] after the data type.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a Linked List in C++?",
+    "Ans": "A linked list is a data structure in which each element, called a node, contains a value and a pointer to the next node in the list. The first node is called the head, and the last node points to NULL. Linked lists can be singly or doubly linked, depending on whether each node has a pointer to the previous node as well as the next node.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a Stack in C++?",
+    "Ans": "A stack is a data structure in which elements are added and removed from the top. It follows the Last In First Out (LIFO) principle. The two main operations on a stack are push (add an element to the top) and pop (remove the element at the top).",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a Queue in C++?",
+    "Ans": "A queue is a data structure in which elements are added at one end (the back) and removed from the other end (the front). It follows the First In First Out (FIFO) principle. The two main operations on a queue are enqueue (add an element to the back) and dequeue (remove the element at the front).",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a Binary Tree in C++?",
+    "Ans": "A binary tree is a tree data structure in which each node has at most two children, referred to as the left and right subtrees. The top node is called the root, and nodes with no children are called leaves. Binary trees can be traversed in different orders, such as in-order, pre-order, and post-order.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is encapsulation in C++?",
+    "Ans": "Encapsulation is a feature in C++ where data and methods that operate on that data are encapsulated within a class. This means that the data and methods are not accessible from outside the class, which helps to prevent accidental modification of the data.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a constructor in C++?",
+    "Ans": "A constructor is a special member function that is called when an object of a class is created. It is used to initialize the data members of the class.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a destructor in C++?",
+    "Ans": "A destructor is a special member function that is called when an object of a class is destroyed. It is used to clean up any resources that the object has allocated.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a copy constructor in C++?",
+    "Ans": "A copy constructor is a special constructor that is used to create a new object as a copy of an existing object.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a move constructor in C++?",
+    "Ans": "A move constructor is a special constructor that is used to create a new object by moving the resources (such as memory) from an existing object to the new object.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a friend function in C++?",
+    "Ans": "A friend function is a function that is declared inside a class but is not a member function of that class. It can access the private and protected data members of the class.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a static member function in C++?",
+    "Ans": "A static member function is a member function of a class that can be called without an object of the class. It operates on the static data members of the class.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a virtual function in C++",
+    "Ans": "A virtual function is a member function of a class that can be overridden by a function in a derived class. It allows for dynamic binding, which means that the function that is called is determined at runtime based on the type of the object that the function is called on.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a pure virtual function in C++?",
+    "Ans": "A pure virtual function is a virtual function that is declared in a base class but does not have an implementation. It is used to make the base class an abstract class, which cannot be instantiated. Any class that inherits from the abstract class must implement the pure virtual function in order to be instantiated.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is an abstract class in C++?",
+    "Ans": "An abstract class is a class that cannot be instantiated because it has one or more pure virtual functions. It is used as a base class for other classes that implement the pure virtual functions.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is an interface in C++?",
+    "Ans": "An interface is a class that only contains pure virtual functions. It is used to define a set of methods that other classes must implement.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a template in C++?",
+    "Ans": "A template is a feature in C++ that allows for generic programming. It is a way to define a function or class that can work with different data types without having to write separate code for each type.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a template specialization in C++?",
+    "Ans": "A template specialization is a way to provide a specific implementation of a template for a particular data type. It is used when the default implementation of the template is not suitable for a particular data type.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between a template class and a template function in C++?",
+    "Ans": "A template class is a class that is parameterized by one or more data types, while a template function is a function that is parameterized by one or more data types.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between an array and a vector in C++?",
+    "Ans": "An array is a fixed-size collection of elements of the same data type, while a vector is a dynamic-size collection of elements of the same data type. Vectors can be resized dynamically, while arrays cannot.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between a pointer and a reference in C++?",
+    "Ans": "A pointer is a variable that stores the memory address of another variable, while a reference is an alias for another variable. A pointer can be null, while a reference must always refer to a valid variable.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between a constant pointer and a pointer to a constant in C++?",
+    "Ans": "A constant pointer is a pointer that cannot be modified to point to a different variable, while a pointer to a constant is a pointer that can be modified to point to a different variable but cannot be used to modify the variable that it points to.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between stack and heap memory in C++?",
+    "Ans": "Stack memory is a region of memory that is allocated automatically when a function is called and is freed automatically when the function returns. Heap memory is a region of memory that is allocated dynamically using functions such as new and malloc and must be freed manually using functions such as delete and free.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a smart pointer in C++?",
+    "Ans": "A smart pointer is a class that behaves like a pointer but also provides automatic memory management. It uses reference counting to keep track of the number of references to an object and automatically deallocates the object when the reference count reaches zero.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between a stack and a queue in C++?",
+    "Ans": "A stack is a data structure that follows the Last In First Out (LIFO) principle, while a queue follows the First In First Out (FIFO) principle. In other words, the last element added to a stack is the first one to be removed, while the first element added to a queue is the first one to be removed.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between a class and a struct in C++?",
+    "Ans": "In C++, a struct is a class where all members are public by default, while a class has private access by default. However, aside from the default access level, there is no functional difference between a class and a struct in C++.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between public, private, and protected access specifiers in C++?",
+    "Ans": "Public members of a class can be accessed by any code that has access to the class. Private members can only be accessed by code that is part of the same class. Protected members can be accessed by code that is part of the same class or by derived classes.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between const and constexpr in C++?",
+    "Ans": "Const is used to declare a variable as read-only, which means that its value cannot be changed after it is initialized. Constexpr is used to declare a value as a compile-time constant, which means that its value is known at compile time and can be used in other compile-time expressions. Constexpr is more restrictive than const and is only used in cases where a value can be determined at compile time.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What are the differences between static and dynamic linking?",
+    "Ans": "Static linking is the process of linking all the necessary libraries into an executable file, so that the executable can be run on any system without needing the libraries installed separately. Dynamic linking is the process of loading the necessary libraries at runtime, which reduces the size of the executable but requires the libraries to be installed on the system.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is virtual inheritance in C++?",
+    "Ans": "Virtual inheritance is a way to resolve ambiguities when multiple inheritance is used. It ensures that a single copy of a base class is inherited by all the derived classes, so that there are no conflicting copies of the same data member or function.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between a deep copy and a shallow copy?",
+    "Ans": "A shallow copy is a copy of the data members of an object, which may point to the same memory as the original object. A deep copy is a copy of the data members of an object and all the objects pointed to by the data members, so that the two objects are completely independent.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between a pointer and a reference in C++?",
+    "Ans": "A pointer is a variable that stores the memory address of another variable. It can be null, and can be re-assigned to point to different variables. A reference is an alias for another variable, and cannot be null or re-assigned to another variable.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between a stack and a heap in C++?",
+    "Ans": "The stack is a section of memory that is used to store local variables and function call frames. It is allocated and de-allocated automatically by the program. The heap is a section of memory that is used to allocate memory dynamically at runtime, using operators like new and delete.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a smart pointer in C++?",
+    "Ans": "A smart pointer is a class that acts like a pointer but provides automatic memory management. It is used to prevent memory leaks and dangling pointers by automatically deleting the pointed-to object when it is no longer needed.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between a mutex and a semaphore in C++?",
+    "Ans": "A mutex is a synchronization object that is used to protect shared resources from concurrent access by multiple threads. It allows only one thread to access the shared resource at a time. A semaphore is a synchronization object that is used to signal between threads or processes, and can allow a specified number of threads to access a shared resource simultaneously.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is RAII in C++?",
+    "Ans": "RAII stands for Resource Acquisition Is Initialization. It is a programming idiom that uses object lifetime to control resource allocation and deallocation, so that resources are always released properly when the object goes out of scope.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a lambda expression in C++?",
+    "Ans": "A lambda expression is a way to define an anonymous function in C++. It is used to create a function object that can be passed as an argument or stored in a variable. It can capture variables from its enclosing scope and can have a return type and parameter list.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is template metaprogramming in C++?",
+    "Ans": "Template metaprogramming is a technique that uses templates to perform computations at compile time. It is used to generate code based on compile-time constants and to perform compile-time optimizations. It involves using templates in ways that were not originally intended, such as using templates to define functions or to perform calculations.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between an abstract class and an interface in C++?",
+    "Ans": "An abstract class is a class that has one or more pure virtual functions, which means that it cannot be instantiated directly. It is used as a base class for other classes to derive from. \n\nAn interface is a class that only contains pure virtual functions and no data members. It is used to define a contract for other classes to implement.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a friend function in C++?",
+    "Ans": "A friend function is a non-member function that is granted access to the private and protected members of a class. It is declared inside the class, but defined outside of it.",
+    "Code1": "#include <iostream>\nusing namespace std;\n\nclass MyClass {\nprivate:\n   int value;\n\npublic:\n   MyClass(int value): value(value) {}\n\n   friend void printValue(MyClass obj);\n};\n\nvoid printValue(MyClass obj) {\n   cout << \"The value of MyClass object is: \" << obj.value << endl;\n}\n\nint main() {\n   MyClass obj(42);\n\n    printValue(obj);\n    return 0;\n}",
+    "Ans1": "In this example, we define a class 'MyClass' with a private integer member 'value' and a public constructor. We then declare the function 'printValue' as a friend function of 'MyClass' by using the friend keyword inside the class declaration.\n\nThe 'printValue' function takes a 'MyClass' object as its parameter and prints its private member 'value' to the console.\n\nIn the 'main' function, we create a 'MyClass' object with a value of 42, and pass it to the 'printValue' function.\n\nSince 'printValue' is declared as a friend function of 'MyClass', it has access to the private 'value' member of the 'MyClass' object, and can print its value to the console.\n\nNote that friend functions are not members of the class, but are defined outside the class definition. They can be declared in the public, protected or private section of the class definition, but their access to the class members is determined by their declaration inside the class definition."
+  },
+  {
+    "Ques": "What is operator overloading in C++?",
+    "Ans": "Operator overloading is a feature of C++ that allows operators to be redefined for user-defined types. This means that operators such as +, -, *, /, and = can be used with user-defined types in the same way as they are used with built-in types.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between overloading and overriding in C++?",
+    "Ans": "Overloading is the ability to define multiple functions with the same name, but with different parameter lists. Overriding is the ability to provide a new implementation for a function that is already defined in a base class. The new implementation is used instead of the base class implementation when the function is called on an object of the derived class.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between const and constexpr in C++?",
+    "Ans": "Const is a keyword that is used to indicate that a variable cannot be modified after it has been initialized. Constexpr is a keyword that is used to indicate that an expression can be evaluated at compile time. This means that the value of a constexpr variable is known at compile time, which allows the compiler to optimize the code.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a move constructor and a move assignment operator in C++?",
+    "Ans": "A move constructor is a special constructor that is used to move the contents of an object to another object, instead of copying them. It is used to improve performance when copying large objects. A move assignment operator is a special operator that is used to move the contents of one object to another object, instead of copying them, when using the assignment operator.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is a lambda capture in C++?",
+    "Ans": "A lambda capture is a way to specify which variables from the enclosing scope should be available inside a lambda expression. It can capture variables by value, by reference, or by move. This allows the lambda expression to access variables from the enclosing scope, even if they are not passed as arguments. \nIn the example below, the lambda function captures the variable x from the enclosing scope by reference using the capture list [&x]. This means that the lambda function can modify the value of x in the enclosing scope. The lambda function takes an integer parameter y and adds it to x.",
+    "Code1": "int x = 10;\nauto my_lambda = [x](int y) {\n    return x + y;\n};"
+  },
+  {
+    "Ques": "What is a rvalue reference in C++?",
+    "Ans": "An rvalue reference is a reference to an object that is about to be destroyed, or to a temporary object. It is denoted by the && operator. Rvalue references are used to enable move semantics and to improve performance when passing objects to functions.",
+    "Code1": ""
+  },
+  {
+    "Ques": "What is the difference between a function pointer and a functor in C++?",
+    "Ans": "A function pointer is a pointer to a function, which can be used to call the function indirectly. A functor is a class that acts like a function, by implementing the operator() function. Functors are used when a function needs to be stored as an object, or when a function needs to maintain state between calls.",
+    "title1": "Function example",
+    "Code1": "int add(int a, int b) {\n    return a + b;\n}",
+    "title2": "Functor Example",
+    "Code2": "struct Multiply {\n    int operator()(int a, int b) const {\n        return a * b;\n    }\n};"
+  }
+]
